@@ -1,0 +1,28 @@
+.events {
+    margin: 80px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.event img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+/* Media query */
+@media (max-width: 800px) {
+    .event {
+        flex-wrap: wrap;
+    }
+    .event img {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
